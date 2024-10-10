@@ -1,5 +1,87 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-rs-xid (1.6.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release
+  * d/control:
+    - Add myself to Uploaders
+    - Update Standards-Version to 4.7.0 (no changes needed)
+  * Update years in d/copyright
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 05 Oct 2024 14:53:50 +0000
+
+golang-github-rs-xid (1.5.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Update Standards-Version to 4.6.2 in d/control (no changes needed)
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 17 Jun 2023 21:51:43 +0000
+
+golang-github-rs-xid (1.4.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Aloïs Micard ]
+  * update debian/gitlab-ci.yml (using pkg-go-tools/ci-config)
+
+  [ Debian Janitor ]
+  * Apply hints suggested by the multi-arch hinter
+
+  [ Mathias Gibbens ]
+  * New upstream release
+  * d/control:
+    - Update Section to golang
+    - Update Maintainer email address to current team address
+    - Bump Standards-Version (no changes needed)
+    - Update Build-Depends and Depends
+    - Add Rules-Requires-Root: no
+  * d/copyright:
+    - Remove unneeded Files-Excluded
+    - Add myself
+  * Update d/watch version
+
+ -- Mathias Gibbens <gibmat@debian.org>  Sat, 12 Nov 2022 00:27:26 +0000
+
+golang-github-rs-xid (1.1-5) unstable; urgency=medium
+
+  [ Michael Stapelberg ]
+  * update debian/gitlab-ci.yml (using salsa.debian.org/go-team/ci/cmd/ci)
+  * update debian/gitlab-ci.yml (using salsa.debian.org/go-team/ci/cmd/ci)
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields:
+    Bug-Database, Bug-Submit, Repository, Repository-Browse.
+
+  [ Thorsten Alteholz ]
+  * new maintainer (Closes: #940417)
+  * Thanks a lot to Alexandre for taking care of the package.
+  * debian/control: bump standards-version to 4.5.0 (no changes)
+  * debian/control: use dh13
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sat, 28 Nov 2020 15:07:40 +0000
+
+golang-github-rs-xid (1.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 05 Feb 2018 23:19:00 -0500
+
+golang-github-rs-xid (1.1-3) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 16:01:42 -0500
+
+golang-github-rs-xid (1.1-2) unstable; urgency=medium
+
+  * Move to salsa.debian.org.
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 30 Dec 2017 00:09:16 -0500
+
+golang-github-rs-xid (1.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #885231)
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 25 Dec 2017 21:49:23 -0500
